@@ -1,0 +1,74 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Barra superior azul */
+.header {
+    background-color: #007BFF; /* Azul */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 4px;
+    font-family: "Bookman Old Style";
+}
+
+/* Contenido principal */
+.container {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.container h2 {
+    color: #333;
+    font-family: "Modern No. 20";
+}
+
+.container p {
+    color: #555;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.image-laponia {
+    width: 80%; /* Cambia este valor según cuán ancha quieras que sea la imagen */
+    height: auto;
+    max-height: 500px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: 80px;
+    margin-bottom: 70px;
+}
+
+/* Barra inferior azul */
+.footer {
+    background-color: #007BFF; /* Azul */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-buttons .btn{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+
+
+}
+
+.footer-buttons .btn:hover {
+    background-color: rgba(19, 140, 140, 0.35);
+    color: white;
+}
